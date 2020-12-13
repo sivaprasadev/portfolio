@@ -81,9 +81,6 @@ label {
 	position: relative;
 }
 
-
-
-
 /*@media (width:320px) {
 	#bannerPhoto {
 		width: 195px;
@@ -278,7 +275,7 @@ p.banner-p-w3ls {
 	float: none;
 	text-align: left;
 	line-height: 30px;
-	border:3px solid black;
+	border: 3px solid black;
 	padding: 5px;
 	color: black;
 	font-weight: bold;
@@ -2450,6 +2447,7 @@ a.callbacks_nav.callbacks1_nav.prev {
 		font-size: 14px;
 		width: 55%;
 		line-height: 24px;
+		
 	}
 	#typed {
 		margin: 0em 0 0.8em;
@@ -2795,7 +2793,12 @@ a.callbacks_nav.callbacks1_nav.prev {
 		min-height: 32em;
 	}
 	p.banner-p-w3ls {
-		width: 90%;
+		/*width: 90%;*/
+		width: 76%;
+		margin-top: 120px;
+		margin-left: 40px;
+		text-align: center;
+		border:none;
 	}
 	.copy-w3-agile p {
 		font-size: 12.5px;
